@@ -56,7 +56,7 @@ message TlsParameters {
   // If not specified, a default list will be used. Defaults are different for server (downstream) and
   // client (upstream) TLS configurations.
   //
-  // In non-FIPS builds, the default servers cipher list is:
+  // In non-FIPS builds, the default server cipher list is:
   //
   // .. code-block:: none
   //
